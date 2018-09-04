@@ -2,8 +2,10 @@ package main
 
 import "fmt"
 
+var stringData string = "Test Scope"
+
 func main() {
-    test2()
+	test2()
 	var data string = "My hello string"
 
 	for _, r := range data {
@@ -17,10 +19,14 @@ func main() {
 	fmt.Println("Hello" + "World")
 }
 
-func test2(){
-
-  //inistailizing any variable
+func test2() {
+    test3()
+	//inistailizing any variable
 	x := "demo"
-	var y string ="dem"+"o"
-	fmt.Println(x==y)
+	var y string = "dem" + "o"
+	fmt.Println(x == y)
+}
+
+func test3() {
+   fmt.Println("Scope"+stringData)
 }
