@@ -68,5 +68,3 @@ func unserInput() {
 		fmt.Printf("%s.", os)
 	}
 }
-
-

@@ -20,7 +20,7 @@ func main() {
 }
 
 func test2() {
-    test3()
+	test3()
 	//inistailizing any variable
 	x := "demo"
 	var y string = "dem" + "o"
@@ -28,5 +28,5 @@ func test2() {
 }
 
 func test3() {
-   fmt.Println("Scope"+stringData)
+	fmt.Println("Scope" + stringData)
 }
